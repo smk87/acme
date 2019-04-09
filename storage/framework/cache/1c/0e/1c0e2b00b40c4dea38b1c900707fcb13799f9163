@@ -1,0 +1,74 @@
+1554798941a:1:{s:15:"site/header.htm";a:5:{s:8:"fileName";s:15:"site/header.htm";s:7:"content";s:1408:"<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">{{ this.theme.site_name }}</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarColor01"
+    aria-controls="navbarColor01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if this.page.id=='home' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'home' | page }}">Home</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='about' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'about' | page }}">About</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='blog' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'blog' | page }}">Blog</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='contact' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'contact' | page }}">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>
+";s:5:"mtime";i:1554796306;s:6:"markup";s:1406:"<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">{{ this.theme.site_name }}</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarColor01"
+    aria-controls="navbarColor01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item {% if this.page.id=='home' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'home' | page }}">Home</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='about' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'about' | page }}">About</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='blog' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'blog' | page }}">Blog</a>
+      </li>
+      <li class="nav-item {% if this.page.id=='contact' %}active{% endif %}">
+        <a class="nav-link" href="{{ 'contact' | page }}">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" />
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">
+        Search
+      </button>
+    </form>
+  </div>
+</nav>";s:4:"code";N;}}
